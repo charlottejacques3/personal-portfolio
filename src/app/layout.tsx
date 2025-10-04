@@ -30,7 +30,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
-        className={`${mandali.variable} ${rokkitt.variable} antialiased m-10`}
+        className={`${mandali.variable} ${rokkitt.variable} antialiased m-2 lg:m-10`}
       >
         {children}
       </body>
