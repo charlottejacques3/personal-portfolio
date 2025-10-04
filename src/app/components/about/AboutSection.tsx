@@ -6,11 +6,11 @@ import { IconLink } from './IconLink';
 export const AboutSection = () => {
 
   return (
-    <div className='flex m-20'>
+    <div className='md:flex md:m-20'>
 
       {/* headshot and socials */}
-      <div className='mr-20'>
-        <Image src='/headshot.png' alt='Headshot' width={350} height={350}/>
+      <div className='w-xs h-xs m-auto'>
+        <Image src='/headshot.png' alt='Headshot' width={320} height={320} className='min-w-xs min-h-xs'/>
         <div className='flex justify-center'> 
           <IconLink href='https://www.linkedin.com/in/charlotte-jacques-9472a6337/' icon='/socials/linkedin.png' alt='LinkedIn icon with hyperlink'/>
           <IconLink href='https://github.com/charlottejacques3' icon='/socials/github.png' alt='GitHub icon with hyperlink'/>
@@ -18,7 +18,7 @@ export const AboutSection = () => {
       </div>
 
       {/* bio */}
-      <div>
+      <div className='ml-20 h-xs content-center'>
         <h1>{greeting}</h1> 
         {bio}
       </div>
