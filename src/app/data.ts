@@ -1,4 +1,5 @@
 import { Experience } from "./lib/definitions";
+import { Project } from "./lib/definitions";
 
 // about section
 
@@ -35,5 +36,38 @@ export const experience:Experience[] = [
     ],
     image: '/experience/vixi.png',
     alt: 'VIXI Labs logo',
+  }
+];
+
+
+// project section
+
+export const projects:Project[] = [
+  {
+    id: 0,
+    title: 'Octocards',
+    tagline: 'Visual study app with a spaced repetition algorithm',
+    techStack: ['Django', 'Bootstrap', 'HTML', 'CSS', 'JavaScript'],
+    image: '/projects/octocards.png',
+    github: 'https://github.com/charlottejacques3/octocards',
+    description: "I designed a web application to help visual learners organize their study material into flashcards and tables in a way that makes sense to them. To promote maximum retention, they can then review the content with the program's spaced repetition algorithm. In addition, I have implemented features for users to group their study material into classes and topics.\nThis application was coded mostly in Python's Django framework, which provided a way to store the user's study material in model classes connected to a SQLite database, and display it in a view. I coded the frontend in CSS, making use of the Bootstrap library."
+  },
+  {
+    id: 1,
+    title: 'Gratitude Buddy',
+    tagline: 'Mobile application for promoting gratitude',
+    techStack: ['Flutter', 'Dart', 'Firebase'],
+    image: '/projects/pennywise.png',
+    github: 'https://github.com/charlottejacques3/gratitude_app',
+    description: "I developed my frontend and backend skills by designing and coding a website showcasing Canada's lesser known parks. The parks can be browsed either through a list or a map.\nThe park information is stored in a mySQL database, and served to the website using PHP. I used HTML and CSS to design the site, and JavaScript to make the site responsive across various devices."
+  },
+  {
+    id: 2,
+    title: 'Canada Unknown',
+    tagline: "Website showcasing Canada's underrated parks",
+    techStack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+    image: '/projects/canada_unknown.png',
+    github: 'https://github.com/charlottejacques3/gratitude_app',
+    description: "I developed my frontend and backend skills by designing and coding a website showcasing Canada's lesser known parks. The parks can be browsed either through a list or a map.\nThe park information is stored in a mySQL database, and served to the website using PHP. I used HTML and CSS to design the site, and JavaScript to make the site responsive across various devices."
   }
 ];
