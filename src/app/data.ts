@@ -69,5 +69,14 @@ export const projects:Project[] = [
     image: '/projects/canada_unknown.png',
     github: 'https://github.com/charlottejacques3/gratitude_app',
     description: "I developed my frontend and backend skills by designing and coding a website showcasing Canada's lesser known parks. The parks can be browsed either through a list or a map.\nThe park information is stored in a mySQL database, and served to the website using PHP. I used HTML and CSS to design the site, and JavaScript to make the site responsive across various devices."
-  }
+  },
+  {
+    id: 3,
+    title: 'VikeEats',
+    tagline: "Extracurricular club project",
+    techStack: ['HTML', 'CSS', 'JavaScript', 'Python'],
+    image: '/projects/canada_unknown.png',
+    github: 'https://github.com/VikeLabs/VikeEats',
+    description: "I am currently working as a member of the backend team on a project for VikeLabs, a software development club at the University of Victoria. The goal of our project is to create a website that provides easy access to information on all of UVic's food outlets, including menus, hours, and dietary restriction lists.\nUsing the Beautiful Soup Python library, I have scraped various UVic websites to obtain menu information, and made this data available to the frontend team by creating an API with Flask.\nThroughout the making of this project, I have learned to collaborate effectively with teammmates in a software development context, and have become proficient in GitHub version control."
+  },
 ];

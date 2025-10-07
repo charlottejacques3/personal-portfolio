@@ -1,6 +1,6 @@
 import React from 'react'
 import { experience } from '@/app/data'
-import { ExperienceCard } from './ExperienceCard';
+import { ExperienceCard } from './ExperienceCard'
 
 export const ExperienceSection = () => {
 

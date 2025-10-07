@@ -3,6 +3,7 @@ import { Project } from '@/app/lib/definitions'
 import { TechIcon } from './TechIcon'
 import Image from 'next/image'
 import Link from 'next/link'
+import { LearnMoreButton } from './LearnMoreButton'
 
 interface ProjectCardProps {
     proj: Project
@@ -24,7 +25,7 @@ export const ProjectCard:React.FC<ProjectCardProps> = ({proj}) => {
       <div className='grow'/> 
 
       <div className='flex mt-4'>
-        <p className={`${buttonStyle} mr-2 cursor-pointer`}>Learn More</p>
+        <LearnMoreButton proj={proj} style={`${buttonStyle} mr-2 cursor-pointer`}/>
         <Link href={proj.github} className={buttonStyle}>GitHub</Link>
       </div>
     </div>
