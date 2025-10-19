@@ -12,8 +12,8 @@ export const AboutSection = () => {
       <div className='w-xs h-xs m-auto'>
         <Image src='/headshot.png' alt='Headshot' width={320} height={320} className='min-w-xs min-h-xs'/>
         <div className='flex justify-center'> 
-          <IconLink href='https://www.linkedin.com/in/charlotte-jacques-9472a6337/' icon='/socials/linkedin.png' alt='LinkedIn icon with hyperlink'/>
-          <IconLink href='https://github.com/charlottejacques3' icon='/socials/github.png' alt='GitHub icon with hyperlink'/>
+          <IconLink href='https://www.linkedin.com/in/charlotte-jacques-9472a6337/' icon='linkedin' alt='LinkedIn icon with hyperlink'/>
+          <IconLink href='https://github.com/charlottejacques3' icon='github' alt='GitHub icon with hyperlink'/>
         </div>
       </div>
 
