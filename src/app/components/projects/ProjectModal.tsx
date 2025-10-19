@@ -1,18 +1,24 @@
 import { Project } from '@/app/lib/definitions'
 import React from 'react'
+import { Modal } from '../Modal'
+import { TechTag } from './TechTag'
 
 interface ProjectModalProps {
   proj: Project
   isHidden: boolean
+  close: Function
 }
 
-export const ProjectModal:React.FC<ProjectModalProps> = ({proj, isHidden}) => {
+export const ProjectModal:React.FC<ProjectModalProps> = ({proj, isHidden, close}) => {
   return (
-    <div className='fixed top-0 left-0 w-full h-full'>
-      <div className='bg-white-text fixed w-full md:w-3/4 lg:w-1/2 h-auto top-1/2 left-1/2 -translate-1/2' hidden={isHidden}>
-        <h3>{proj.title}</h3>
-        <p>{proj.description}</p>
+    <Modal header={proj.title} isHidden={isHidden} close={close}>
+      <div>
+        <div className='flex flex-wrap items-center'>
+          <p className='font-bold'>Tech Stack:</p>
+          {proj.techStack.map((tech) => <TechTag key={tech} name={tech}/>)}
+        </div>
+        <p className='mt-2'>{proj.description}</p>
       </div>
-    </div>
+    </Modal>
   )
 }
