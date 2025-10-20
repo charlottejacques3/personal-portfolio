@@ -4,7 +4,7 @@ import React from 'react'
 interface BasicButtonProps {
   text: string
   isButton: boolean
-  action?: Function
+  action?: () => void
   href?: string
   className?: string
 }

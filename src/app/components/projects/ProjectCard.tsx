@@ -1,6 +1,6 @@
 import React from 'react'
 import { Project } from '@/app/lib/definitions'
-import { TechIcon } from './TechIcon'
+import { TechIcon } from '../TechIcon'
 import Image from 'next/image'
 import { LearnMoreButton } from './LearnMoreButton'
 import { BasicButton } from '../BasicButton'
@@ -16,7 +16,7 @@ export const ProjectCard:React.FC<ProjectCardProps> = ({proj}) => {
 
       <div className='flex justify-between'>
         <h3>{proj.title}</h3>
-        <div className='flex'>{proj.techStack.map((tech) => <TechIcon key={tech} logoName={tech}/>)}</div>
+        <div className='flex'>{proj.techStack.map((tech) => <TechIcon key={tech} logoName={tech} size={7}/>)}</div>
       </div>
 
       <p>{proj.tagline}</p>

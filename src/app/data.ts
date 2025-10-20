@@ -40,6 +40,13 @@ export const experience:Experience[] = [
 ];
 
 
+// skills section
+
+export const skills:string[] = [
+  'Python', 'Java', 'C', 'Dart', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Bootstrap CSS', 'Flutter', 'PHP', 'Django', 'MySQL',
+]
+
+
 // project section
 
 export const projects:Project[] = [
@@ -47,7 +54,7 @@ export const projects:Project[] = [
     id: 0,
     title: 'Octocards',
     tagline: 'Visual study app with a spaced repetition algorithm',
-    techStack: ['Django', 'Bootstrap', 'HTML', 'CSS', 'JavaScript'],
+    techStack: ['Django', 'Bootstrap CSS', 'HTML', 'CSS', 'JavaScript'],
     image: '/projects/octocards.png',
     github: 'https://github.com/charlottejacques3/octocards',
     description: "I designed a web application to help visual learners organize their study material into flashcards and tables in a way that makes sense to them. To promote maximum retention, they can then review the content with the program's spaced repetition algorithm. In addition, I have implemented features for users to group their study material into classes and topics.\nThis application was coded mostly in Python's Django framework, which provided a way to store the user's study material in model classes connected to a SQLite database, and display it in a view. I coded the frontend in CSS, making use of the Bootstrap library."
