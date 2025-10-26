@@ -6,6 +6,7 @@
   --white-text: #FFFDF2;
   --box-bg: #C3D1BE;
   --headers: #384F32;
+  --hover-grey: rgb(169, 173, 180); /*rgb(209, 213, 220);*/
   --font-sans: var(--font-mandali);
   --font-mono: var(--font-rokkitt);
   --rounded-corners: "50px";
@@ -17,6 +18,7 @@
   --color-white-text: var(--white-text);
   --color-box-bg: var(--box-bg);
   --color-headers: var(--headers);
+  --color-hover-grey: var(--hover-grey);
   --radius-box-corners: var(--rounded-corners);
 }
 

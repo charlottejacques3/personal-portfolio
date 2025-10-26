@@ -16,7 +16,7 @@ export const ProjectCard:React.FC<ProjectCardProps> = ({proj}) => {
 
       <div className='flex justify-between'>
         <h3>{proj.title}</h3>
-        <div className='flex'>{proj.techStack.map((tech) => <TechIcon key={tech} logoName={tech} size={7}/>)}</div>
+        <div className='flex'>{proj.techStack.map((tech) => <TechIcon key={tech} logoName={tech} small={true}/>)}</div>
       </div>
 
       <p>{proj.tagline}</p>
