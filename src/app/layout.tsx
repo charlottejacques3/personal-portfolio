@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Mandali, Rokkitt } from "next/font/google";
 import "./globals.css";
+import { MenuBar } from "./components/MenuBar";
 
 const mandali = Mandali({
   variable: "--font-mandali",
@@ -29,10 +30,9 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body
-        className={`${mandali.variable} ${rokkitt.variable} antialiased m-2 lg:m-10`}
-      >
-        {children}
+      <body className={`${mandali.variable} ${rokkitt.variable} antialiased scroll-smooth`}>
+        <MenuBar/>
+        <div className='m-2 lg:m-10'>{children}</div>
       </body>
     </html>
   );

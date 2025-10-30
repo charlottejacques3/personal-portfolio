@@ -6,7 +6,7 @@ import { IconLink } from './IconLink';
 export const AboutSection = () => {
 
   return (
-    <div className='lg:flex lg:m-20'>
+    <div id='about' className='lg:flex lg:m-20'>
 
       {/* headshot and socials */}
       <div className='w-xs h-xs m-auto'>

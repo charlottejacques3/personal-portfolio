@@ -1,6 +1,30 @@
 import { Experience } from "./lib/definitions";
 import { Project } from "./lib/definitions";
 
+// menu bar
+
+export const name = 'Charlotte\nJacques';
+
+export const sections = [
+  {
+    id: 'about',
+    title: 'About Me',
+  }, 
+  {
+    id: 'experience',
+    title: 'Experience',
+  }, 
+  {
+    id: 'skills', 
+    title: 'Skills'
+  }, 
+  {
+    id: 'projects',
+    title: 'Projects'
+  },
+];
+
+
 // about section
 
 export const greeting = "Hi, my name is Charlotte!";

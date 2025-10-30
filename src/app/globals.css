@@ -19,6 +19,7 @@
   --color-box-bg: var(--box-bg);
   --color-headers: var(--headers);
   --color-hover-grey: var(--hover-grey);
+  --font-rokkitt: var(--font-mono);
   --radius-box-corners: var(--rounded-corners);
 }
 
@@ -30,7 +31,7 @@ body {
 
 h1 {
   color: var(--headers);
-  font-family: var(--font-rokkitt);
+  font-family: var(--font-rokkitt), 'Times New Roman', Times, serif;
   font-size: 72px;
   line-height: 95%;
 }
