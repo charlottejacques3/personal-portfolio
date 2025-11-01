@@ -67,7 +67,7 @@ export const experience:Experience[] = [
 // skills section
 
 export const skills:string[] = [
-  'Python', 'Java', 'C', 'Dart', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Bootstrap CSS', 'Flutter', 'PHP', 'Django', 'MySQL',
+  'Python', 'Java', 'C', 'Dart', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Bootstrap CSS', 'Flutter', 'PHP', 'Django', 'MySQL', 'PostgreSQL', 'GitHub', 'Node.js'
 ]
 
 
