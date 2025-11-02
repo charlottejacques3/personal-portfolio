@@ -29,7 +29,7 @@ export const sections = [
 
 export const greeting = "Hi, my name is Charlotte!";
 
-export const bio = "I am a third year computer science student at the University of Victoria. I am interested in fullstack development and data science, and I have a passion for creating technology that can have a positive impact on the world. I am always eager to learn and try new things, etc.";
+export const bio = "I am a third year computer science student at the University of Victoria with a keen interest in fullstack development. I have a passion for creating technology that can have a positive impact on the world, and I am always eager to learn and try new things. In my spare time, I enjoy reading and crocheting, as well as outdoor activities such as hiking and rock climbing!";
 
 
 // experience section
@@ -41,8 +41,8 @@ export const experience:Experience[] = [
     company: "Routific",
     dateRange: "September-December 2025",
     bulletPoints: [
-      "Point 1",
-      "Point 2",
+      "Collaborated with other engineers, designers, and product managers to develop both backend and frontend features for the next generation of the Routific platform",
+      "Implemented analytics tracking to help uncover usability patterns and issues with current features",
     ],
     image: '/experience/routific.png',
     alt: 'Routific logo',
@@ -54,9 +54,9 @@ export const experience:Experience[] = [
     dateRange: "May-August 2025",
     bulletPoints: [
       "Designed and developed a fullstack mobile application for fostering gratitude",
-      "Conducted a user study with 37 participants to assess the effectiveness of the application",
-      "Performed coding and analysis of qualitative data from the study...",
-      "[Conducted?] a literature review, co-wrote the paper, etc."
+      "Ran a user study with 37 participants to assess the effectiveness of the application",
+      "Performed coding and analysis of qualitative data from the study to extract insights",
+      "Conducted a literature review and co-wrote an academic paper to share the study's findings"
     ],
     image: '/experience/vixi.png',
     alt: 'VIXI Labs logo',
