@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutSection } from "./components/about/AboutSection";
 import { ExperienceSection } from "./components/experience/ExperienceSection";
-import { SkillsSection } from "./components/skills/SkillsSection";
+import { SkillsSection } from "./components/SkillsSection";
 import { ProjectsSection } from "./components/projects/ProjectsSection";
 import { CreditsSection } from "./components/CreditsSection";
 

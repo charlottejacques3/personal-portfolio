@@ -89,7 +89,7 @@ export const projects:Project[] = [
     techStack: ['Flutter', 'Dart', 'Firebase'],
     image: '/projects/gratitude_buddy.png',
     github: 'https://github.com/charlottejacques3/gratitude_app',
-    description: "I developed my frontend and backend skills by designing and coding a website showcasing Canada's lesser known parks. The parks can be browsed either through a list or a map.\nThe park information is stored in a mySQL database, and served to the website using PHP. I used HTML and CSS to design the site, and JavaScript to make the site responsive across various devices."
+    description: "As part of a directed studies project, I used the Flutter SDK to develop a mobile application for fostering gratitude. I applied design principles to ensure a smooth user experience throughout the app, and set up customizable daily notifications to help promote habit formation. Using Firebase, I configured a backend to store user data and provide secure authentication."
   },
   {
     id: 2,

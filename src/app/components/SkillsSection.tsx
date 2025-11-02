@@ -4,7 +4,7 @@ import React from 'react'
 import dynamic from 'next/dynamic';
 import { skills } from '@/app/lib/data'
 
-const TechIcon = dynamic(() => import('../TechIcon'), { ssr: false });
+const TechIcon = dynamic(() => import('./TechIcon'), { ssr: false });
 
 export const SkillsSection = () => {
   return (
