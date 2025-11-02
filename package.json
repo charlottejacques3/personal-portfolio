@@ -1,14 +1,12 @@
 {
   "name": "portfolio_2",
   "version": "0.1.0",
-  "homepage": "https://charlottejacques3.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "export": "next export",
-    "start": "next start",
-    "deploy": "gh-pages -d out --dotfiles"
+    "start": "next start"
   },
   "dependencies": {
     "@types/react-scroll": "^1.8.10",

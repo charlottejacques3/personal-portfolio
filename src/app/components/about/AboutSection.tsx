@@ -19,7 +19,7 @@ export const AboutSection = () => {
       </div>
 
       {/* bio */}
-      <div className='lg:ml-20 h-xs'>
+      <div className='lg:ml-20 h-xs lg:content-center'>
         <Typewriter text={greeting}/>
         {bio}
       </div>
