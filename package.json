@@ -8,7 +8,7 @@
     "build": "next build --turbopack",
     "export": "next export",
     "start": "next start",
-    "out": "gh-pages -d out --dotfiles",
+    "out": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@types/react-scroll": "^1.8.10",
