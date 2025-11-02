@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { greeting, bio } from '@/app/data';
 import { IconLink } from './IconLink';
+import { Typewriter } from './Typewriter';
 
 export const AboutSection = () => {
 
@@ -19,7 +20,8 @@ export const AboutSection = () => {
 
       {/* bio */}
       <div className='ml-20 h-xs content-center'>
-        <h1>{greeting}</h1> 
+        {/* <h1>{greeting}</h1>  */}
+        <Typewriter text={greeting}/>
         {bio}
       </div>
     </div>
