@@ -1,5 +1,4 @@
-import { Experience } from "./lib/definitions";
-import { Project } from "./lib/definitions";
+import { Experience, Project, Credit } from "./lib/definitions";
 
 // menu bar
 
@@ -109,5 +108,36 @@ export const projects:Project[] = [
     image: '/projects/canada_unknown.png',
     github: 'https://github.com/VikeLabs/VikeEats',
     description: "I am currently working as a member of the backend team on a project for VikeLabs, a software development club at the University of Victoria. The goal of our project is to create a website that provides easy access to information on all of UVic's food outlets, including menus, hours, and dietary restriction lists.\nUsing the Beautiful Soup Python library, I have scraped various UVic websites to obtain menu information, and made this data available to the frontend team by creating an API with Flask.\nThroughout the making of this project, I have learned to collaborate effectively with teammmates in a software development context, and have become proficient in GitHub version control."
+  },
+];
+
+
+// icon credits
+
+export const iconCredits:Credit[] = [
+  {
+    id: 0,
+    location: '62856/github',
+    name: 'GitHub'
+  },
+  {
+    id: 1,
+    location: 'lYRyQVjFfJy5/github',
+    name: 'GitHub'
+  },
+  {
+    id: 2,
+    location: '98960/linkedin',
+    name: 'LinkedIn'
+  }, 
+  {
+    id: 3,
+    location: '16166/linkedin',
+    name: 'LinkedIn'
+  },
+  {
+    id: 4,
+    location: '59832/menu',
+    name: 'Menu'
   },
 ];

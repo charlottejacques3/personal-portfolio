@@ -16,7 +16,7 @@ export const IconLink:React.FC<IconLinkProps> = ({href, alt, icon}) => {
   const [hover, setHover] = useState<boolean>(false);
 
   return (
-    <Link href={href} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+    <Link target='_blank' href={href} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
       <IconImage icon={icon} alt={alt} hover={hover}/>
     </Link>
   );

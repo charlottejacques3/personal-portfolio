@@ -17,6 +17,6 @@ export const BasicButton:React.FC<BasicButtonProps> = ({text, isButton, action, 
   if (isButton && action) {
     return <button type="button" className={`${buttonStyle} ${className} cursor-pointer `} onClick={() => action()}>{text}</button>;
   } else if (!isButton && href) {
-    return <Link href={href} className={`${buttonStyle} ${className}`}>{text}</Link>;
+    return <Link target='_blank' href={href} className={`${buttonStyle} ${className}`}>{text}</Link>;
   }
 }

@@ -18,7 +18,7 @@ export const ExperienceCard:React.FC<ExperienceCardProps> = ({exp}) => {
         <h3>{exp.title}</h3>
         <p>{exp.company}</p>
         <p>{exp.dateRange}</p>
-        <ul className='list-disc ml-4 mt-4'>
+        <ul>
           {exp.bulletPoints.map((point) => <li key={point}>{point}</li>)}
         </ul>
       </div>
