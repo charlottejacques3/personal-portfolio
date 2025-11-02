@@ -1,5 +1,5 @@
 import React from 'react'
-import { experience } from '@/app/data'
+import { experience } from '@/app/lib/data'
 import { ExperienceCard } from './ExperienceCard'
 
 export const ExperienceSection = () => {

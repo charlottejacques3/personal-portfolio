@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { sections } from '../../data'
+import { sections } from '../../lib/data'
 
 interface MenuItemsProps {
   desktop: boolean,

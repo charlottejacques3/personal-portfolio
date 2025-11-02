@@ -1,5 +1,5 @@
 import React from 'react'
-import { projects } from '@/app/data'
+import { projects } from '@/app/lib/data'
 import { ProjectCard } from './ProjectCard'
 
 export const ProjectsSection = () => {

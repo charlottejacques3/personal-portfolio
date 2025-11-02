@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import { Modal } from './Modal';
-import { iconCredits } from '../data';
+import { iconCredits } from '../lib/data';
 
 export const CreditsSection = () => {
 

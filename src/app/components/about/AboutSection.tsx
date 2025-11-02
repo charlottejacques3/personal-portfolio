@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import { greeting, bio } from '@/app/data';
+import { greeting, bio } from '@/app/lib/data';
 import { IconLink } from './IconLink';
 import { Typewriter } from './Typewriter';
 

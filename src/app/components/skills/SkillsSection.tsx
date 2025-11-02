@@ -2,7 +2,7 @@
 
 import React from 'react'
 import dynamic from 'next/dynamic';
-import { skills } from '@/app/data'
+import { skills } from '@/app/lib/data'
 
 const TechIcon = dynamic(() => import('../TechIcon'), { ssr: false });
 
