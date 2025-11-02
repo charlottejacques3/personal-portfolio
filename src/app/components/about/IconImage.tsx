@@ -11,7 +11,7 @@ interface IconImageProps {
 export const IconImage:React.FC<IconImageProps> = ({alt, icon, hover}) => {
   return (
     <Image 
-      src={hover ? `/socials/${icon}_hover.png` : `/socials/${icon}.png`} 
+      src={hover ? `socials/${icon}_hover.png` : `socials/${icon}.png`} 
       alt={alt} width={30} height={30} className='m-1'
     />
   )

@@ -12,7 +12,7 @@ interface ProjectCardProps {
 export const ProjectCard:React.FC<ProjectCardProps> = ({proj}) => {
   return (
     <div className='bg-box-bg rounded-xl shadow-xl my-5 mr-5 p-4 min-w-xs flex flex-col transition-all hover:transform-[scale(1.03)]'> 
-      <Image src={proj.image} alt={proj.title} width={200} height={80} className='w-full min-w-xs rounded-xl'/>
+      <Image src={`projects/${proj.image}.png`} alt={proj.title} width={200} height={80} className='w-full min-w-xs rounded-xl'/>
 
       <div className='flex justify-between'>
         <h3>{proj.title}</h3>
