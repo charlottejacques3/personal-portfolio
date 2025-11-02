@@ -15,7 +15,7 @@ export const MobileMenu = () => {
       <Image 
         onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} 
         onClick={() => setModalHidden(false)}
-        src={hover ? 'menu_hover.png' : 'menu.png'} 
+        src={hover ? '/menu_hover.png' : '/menu.png'} 
         width={30}
         height={30}
         alt='Menu icon' 
