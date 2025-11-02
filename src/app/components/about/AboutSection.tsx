@@ -7,7 +7,7 @@ import { Typewriter } from './Typewriter';
 export const AboutSection = () => {
 
   return (
-    <div id='about' className='lg:flex lg:m-20'>
+    <div id='about' className='lg:flex my-20'>
 
       {/* headshot and socials */}
       <div className='w-xs h-xs m-auto'>
@@ -19,8 +19,7 @@ export const AboutSection = () => {
       </div>
 
       {/* bio */}
-      <div className='ml-20 h-xs content-center'>
-        {/* <h1>{greeting}</h1>  */}
+      <div className='lg:ml-20 h-xs'>
         <Typewriter text={greeting}/>
         {bio}
       </div>

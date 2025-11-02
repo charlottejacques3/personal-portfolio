@@ -4,7 +4,7 @@ import { ProjectCard } from './ProjectCard'
 
 export const ProjectsSection = () => {
   return (
-    <div id='projects' className='m-20'>
+    <div id='projects' className='my-20'>
       <h1>Projects</h1>
       <div className='w-full inline-grid xl:grid-cols-3 lg:grid-cols-2'>
         {projects.map((proj) => <ProjectCard key={proj.id} proj={proj}/>)}

@@ -5,7 +5,7 @@ import { ExperienceCard } from './ExperienceCard'
 export const ExperienceSection = () => {
 
   return (
-    <div id='experience' className='m-20'>
+    <div id='experience' className='my-20'>
       <h1>Experience</h1>
       {experience.map((item) => <ExperienceCard key={item.id} exp={item}/>)}
     </div>

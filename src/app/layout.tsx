@@ -31,9 +31,9 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={`${mandali.variable} ${rokkitt.variable} antialiased scroll-smooth`}>
+      <body className={`${mandali.variable} ${rokkitt.variable} antialiased`}>
         <MenuBar/>
-        <div className='m-2 lg:m-10'>{children}</div>
+        <div className='m-8 lg:m-24'>{children}</div>
       </body>
     </html>
   );
