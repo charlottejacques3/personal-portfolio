@@ -1,6 +1,6 @@
 import React from 'react'
 import { Project } from '@/app/lib/definitions'
-import { TechIcon } from '../TechIcon'
+import TechIcon from '../TechIcon'
 import Image from 'next/image'
 import { LearnMoreButton } from './LearnMoreButton'
 import { BasicButton } from '../BasicButton'

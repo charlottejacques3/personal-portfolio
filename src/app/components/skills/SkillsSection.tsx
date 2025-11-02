@@ -1,6 +1,10 @@
+'use client'
+
 import React from 'react'
+import dynamic from 'next/dynamic';
 import { skills } from '@/app/data'
-import { TechIcon } from '../TechIcon'
+
+const TechIcon = dynamic(() => import('../TechIcon'), { ssr: false });
 
 export const SkillsSection = () => {
   return (
@@ -12,5 +16,3 @@ export const SkillsSection = () => {
     </div>
   )
 }
-
-// flex lg:justify-between flex-wrap
