@@ -1,10 +1,12 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-scroll'
-import { sections } from '../data'
+import React, { useState, useEffect } from 'react'
+import dynamic from 'next/dynamic';
+
+const MenuBarResponsive = dynamic(() => import('../menu/MenuBarResponsive'), { ssr: false });
 
 export const MenuBar = () => {
+
   const [scrolling, setScrolling] = useState<boolean>(false);
 
   useEffect(() => {
@@ -25,13 +27,7 @@ export const MenuBar = () => {
       <h3>
         <strong>C</strong>harlotte<br/><strong>J</strong>acques
       </h3>
-      <div className='flex justify-around w-full my-auto mx-36 text-white-text'>
-        {sections.map((section) => 
-          <Link key={section.id} to={section.id} activeClass='text-background' spy={true} smooth={true} offset={-100} duration={500}>
-            <h3 className='cursor-pointer hover:text-background hover:underline'>{section.title}</h3>
-          </Link>
-        )}
-      </div>
+      <div className='w-full my-auto'><MenuBarResponsive/></div>
     </div>
-  )
+  );
 }

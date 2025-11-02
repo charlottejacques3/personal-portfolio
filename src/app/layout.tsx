@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Mandali, Rokkitt } from "next/font/google";
 import "./globals.css";
-import { MenuBar } from "./components/MenuBar";
+import { MenuBar } from "./components/menu/MenuBar";
+
 
 const mandali = Mandali({
   variable: "--font-mandali",
