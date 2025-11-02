@@ -1,13 +1,13 @@
 self.__BUILD_MANIFEST = {
   "/_error": [
-    "./static/chunks/95359849bb611fe1.js"
+    "./static/chunks/9b51ad4977b81329.js"
   ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [
       {
         "source": "/charlottejacques3.github.io//_next/:path+",
-        "destination": "/_next/:path+"
+        "destination": "/charlottejacques3.github.io/_next/:path+"
       }
     ],
     "fallback": []
