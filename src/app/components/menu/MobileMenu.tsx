@@ -19,7 +19,7 @@ export const MobileMenu = () => {
         width={30}
         height={30}
         alt='Menu icon' 
-        className='ml-auto'
+        className='ml-auto hover:cursor-pointer'
       />
       <Modal header='' isHidden={modalHidden} close={() => setModalHidden(true)}>
         <MenuItems desktop={false} close={() => setModalHidden(true)}/>
