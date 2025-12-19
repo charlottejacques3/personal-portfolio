@@ -42,8 +42,10 @@ export const experience:Experience[] = [
     bulletPoints: [
       "Collaborated with other engineers, designers, and product managers to develop both backend and frontend features for the next generation of the Routific platform",
       "Implemented analytics tracking to help uncover usability patterns and issues with current features",
+      "Contributed to reconfiguring automated alerting for internal development environments to reduce on-call noise, and presented these updates to the broader team",
+      "Centralized a core application user flow into a single shared implementation, resulting in improved code readability and maintainability and a reduction in duplicated logic",
     ],
-    image: 'routific',
+    image: 'routific',                      
     alt: 'Routific logo',
   },
   {
